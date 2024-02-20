@@ -99,8 +99,6 @@ const StudentPage: React.FC = (): React.ReactElement => {
         [filteredStudents]
     );
 
-    console.log("re-rendering students");
-
     return (
         <div className="container">
             <div className="student-page">
