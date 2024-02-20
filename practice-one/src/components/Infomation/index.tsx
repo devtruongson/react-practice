@@ -33,7 +33,6 @@ const InformationStudent: React.FC<InformationStudentProps> = React.memo(
             [classmates, student]
         );
         const displayCount = 5;
-        console.log(classmates);
 
         return (
             <div className="information-student">
